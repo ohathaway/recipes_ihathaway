@@ -1,0 +1,11 @@
+{
+  "id": "post_112",
+  "title": "Spicy BBQ Sauce",
+  "wordpress_url": "https://recipes.ihathaway.com/sauces/spicy-bbq-sauce/",
+  "content": "<p>A smoky, spicy BBQ sauce we got from an old Martha Stewart episode</p>",
+  "created_at": "2020-10-18",
+  "author": {
+    "id": "author_2",
+    "type": "Entry"
+  }
+}
