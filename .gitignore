@@ -6,4 +6,4 @@ node_modules
 .output
 .env*
 .graphqlrc
-util/import/scratch/wordpress-exporter.rb
+util/import
