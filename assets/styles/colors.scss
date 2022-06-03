@@ -1,37 +1,9 @@
-/* CSS HEX */
---rich-black-fogra-29: #010a13ff;
---prussian-blue: #052f5fff;
---blue-sapphire: #005377ff;
---green-munsell: #06a77dff;
---dark-khaki: #d5c67aff;
-
-/* CSS HSL */
---rich-black-fogra-29: hsla(210, 90%, 4%, 1);
---prussian-blue: hsla(212, 90%, 20%, 1);
---blue-sapphire: hsla(198, 100%, 23%, 1);
---green-munsell: hsla(164, 93%, 34%, 1);
---dark-khaki: hsla(50, 52%, 66%, 1);
-
 /* SCSS HEX */
 $rich-black-fogra-29: #010a13ff;
 $prussian-blue: #052f5fff;
 $blue-sapphire: #005377ff;
 $green-munsell: #06a77dff;
 $dark-khaki: #d5c67aff;
-
-/* SCSS HSL */
-$rich-black-fogra-29: hsla(210, 90%, 4%, 1);
-$prussian-blue: hsla(212, 90%, 20%, 1);
-$blue-sapphire: hsla(198, 100%, 23%, 1);
-$green-munsell: hsla(164, 93%, 34%, 1);
-$dark-khaki: hsla(50, 52%, 66%, 1);
-
-/* SCSS RGB */
-$rich-black-fogra-29: rgba(1, 10, 19, 1);
-$prussian-blue: rgba(5, 47, 95, 1);
-$blue-sapphire: rgba(0, 83, 119, 1);
-$green-munsell: rgba(6, 167, 125, 1);
-$dark-khaki: rgba(213, 198, 122, 1);
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(0deg, #010a13ff, #052f5fff, #005377ff, #06a77dff, #d5c67aff);

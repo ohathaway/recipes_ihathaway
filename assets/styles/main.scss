@@ -1,0 +1,17 @@
+/* global styles */
+/* global styles */
+@import 'fonts.css';
+
+* {
+  font-family: 'libre-franklin', sans-serif;
+  line-height: 160%;
+  color: $rich-black-fogra-29;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'clarendon-urw-light-italic', serif;
+}
+
+h3 {
+  font-size: 140%;
+}

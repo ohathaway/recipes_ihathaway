@@ -5,4 +5,5 @@ node_modules
 .cache
 .output
 .env*
-util/import/scratch
+.graphqlrc
+util/import/scratch/wordpress-exporter.rb

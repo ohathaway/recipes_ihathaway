@@ -1,0 +1,34 @@
+query AllPosts {
+  postCollection (limit: 10) {
+  	items {
+      title
+      wordpressUrl
+      attachment {
+        title
+        description
+        contentType
+        fileName
+        size
+        url
+        width
+        height
+      }
+      categoriesCollection {
+        items{
+          ... on Category {
+            nicename
+            name
+          }
+        }
+      }
+      tagsCollection {
+        items {
+        	... on Tag {
+            nicename
+            name
+          }
+        }
+      }
+    }
+	}
+}

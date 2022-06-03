@@ -7,10 +7,17 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "node-sass": "^7.0.1",
+    "nuxt": "3.0.0-rc.1",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0"
   },
   "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@vue/apollo-composable": "^4.0.0-alpha.17",
     "contentful": "^9.1.28",
-    "contentful-management": "^10.6.0"
+    "contentful-management": "^10.6.0",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6"
   }
 }
