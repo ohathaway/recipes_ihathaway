@@ -4,6 +4,10 @@ node_modules
 .nitro
 .cache
 .output
+<<<<<<< HEAD
 .env*
 .graphqlrc
 util/import
+=======
+.env
+>>>>>>> ed4ecf0 (initial commit after a bit of stubbing things out)
