@@ -1,0 +1,102 @@
+{
+  "Blog": {
+    "id": "blog",
+    "name": "Blog",
+    "description": null,
+    "displayField": "title",
+    "fields": {
+      "Authors": {
+        "id": "authors",
+        "type": "Array",
+        "link_type": "Entry",
+        "link": "Link"
+      },
+      "Posts": {
+        "id": "posts",
+        "type": "Array",
+        "link_type": "Entry",
+        "link": "Link"
+      },
+      "title": "Text",
+      "Categories": {
+        "id": "categories",
+        "type": "Array",
+        "link_type": "Entry",
+        "link": "Link"
+      },
+      "Tags": {
+        "id": "tags",
+        "type": "Array",
+        "link_type": "Entry",
+        "link": "Link"
+      }
+    }
+  },
+  "Author": {
+    "id": "author",
+    "name": "Author",
+    "description": null,
+    "displayField": "display_name",
+    "fields": {
+      "email": "Text",
+      "display_name": "Text",
+      "first_name": "Text",
+      "last_name": "Text",
+      "wordpress_login": "Text"
+    }
+  },
+  "Tag": {
+    "id": "tag",
+    "name": "Tag",
+    "description": null,
+    "displayField": "nicename",
+    "fields": {
+      "nicename": "Text",
+      "name": "Text"
+    }
+  },
+  "Post": {
+    "id": "post",
+    "name": "Post",
+    "description": null,
+    "displayField": "title",
+    "fields": {
+      "title": "Text",
+      "content": "Text",
+      "Author": {
+        "id": "author",
+        "link": "Link",
+        "type": "Entry"
+      },
+      "Tags": {
+        "id": "tags",
+        "type": "Array",
+        "link_type": "Entry",
+        "link": "Link"
+      },
+      "Categories": {
+        "id": "categories",
+        "type": "Array",
+        "link_type": "Entry",
+        "link": "Link"
+      },
+      "wordpress_url": "Text",
+      "Attachment": {
+        "id": "attachment",
+        "type": "Asset",
+        "link": "Link"
+      },
+      "created_at": "Date"
+    }
+  },
+  "Category": {
+    "id": "category",
+    "name": "Category",
+    "description": null,
+    "displayField": "name",
+    "fields": {
+      "nicename": "Text",
+      "name": "Text"
+    }
+  }
+}

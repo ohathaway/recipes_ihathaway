@@ -1,8 +1,0 @@
-attachment_post_58,Contentful::Management::Conflict,"{
-  ""sys"": {
-    ""type"": ""Error"",
-    ""id"": ""VersionMismatch""
-  },
-  ""requestId"": ""9ebca920-ce02-4ff4-915e-933748136c62""
-}
-"
