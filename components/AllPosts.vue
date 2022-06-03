@@ -1,9 +1,9 @@
 <template>
-  <section class="all-posts">
-    <p>
-      This is All Posts
-    </p>
-    <Post v-for="post in data.posts" v-bind="post"></Post>
+  <h1>All Recipes</h1>
+  <section class="all-posts flex-container">
+    <div v-for="post in data.posts">
+      <PostCard v-bind="post"></PostCard>
+    </div>
   </section>
 </template>
 

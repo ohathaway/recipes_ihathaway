@@ -1,9 +1,14 @@
 /* SCSS HEX */
+
+/* color specifications */
 $rich-black-fogra-29: #010a13ff;
 $prussian-blue: #052f5fff;
 $blue-sapphire: #005377ff;
 $green-munsell: #06a77dff;
 $dark-khaki: #d5c67aff;
+
+/* color shortcuts */
+$black: $rich-black-fogra-29;
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(0deg, #010a13ff, #052f5fff, #005377ff, #06a77dff, #d5c67aff);
