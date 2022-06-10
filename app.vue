@@ -19,4 +19,5 @@ useHead({
     { name: 'og:title', content: `Cooking with the Hathaways - ${route.meta.title}` }
   ]
 })
+
 </script>

@@ -31,6 +31,6 @@ header {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 1px;
-  color: #c7c7c7;
+  color: #979797;
 }
 </style>
