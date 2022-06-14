@@ -10,7 +10,8 @@
     "node-sass": "^7.0.1",
     "nuxt": "^3.0.0-rc.3",
     "sass": "^1.52.3",
-    "sass-loader": "^13.0.0"
+    "sass-loader": "^13.0.0",
+    "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
     "@apollo/client": "^3.6.7",
